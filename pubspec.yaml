@@ -1,0 +1,42 @@
+name: car_news_ecommerce
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.1.0
+  convex_bottom_bar: ^3.0.0
+  webview_flutter: ^2.0.10
+  curved_navigation_bar: ^1.0.1
+  youtube_player_flutter: ^8.0.0
+
+  flutter_rating_bar: ^4.0.0
+
+  #webview_flutter: ^2.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.1
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/Logo/byLEkILi_400x400.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/newsImages/
